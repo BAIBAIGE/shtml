@@ -1,0 +1,135 @@
+ <doctype HTML>
+     <html>
+     <head>
+         <meta charset="utf-8">
+         <title>阻击者联盟</title>
+         <meta name="description" content="">
+         <meta name="keywords" content="">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="css/index.css">
+         <style>
+             .mom {
+                 display: none;
+             }
+             @media only screen and (max-width:450px) {
+                 .mom {
+                     display: block;
+                 }
+
+                 .cn {
+                     color: #f00;
+                     font-weight: bold;
+                 }
+         </style>
+     </head>
+     <body class="is-loading">
+         <div id="wrapper">
+             <section id="main">
+                 <header>
+                     <span class="avatar"><img src="https://q.qlogo.cn/headimg_dl?bs=qq&dst_uin=1074574743&src_uin=www.h-acker.cn&fid=blog&spec=100" alt></span>
+                     <form name="form1">
+                        <div class="cn" title="">我与春风皆过客&nbsp;&nbsp;&nbsp;你携秋水揽星河</div>
+                       <style>
+                            .gn_box{ 
+                            border: none; 
+                            border-radius: 15px; 
+                            } 
+                            .gn_box { 
+                            padding: 10px 14px; 
+                            margin: 10px; 
+                            margin-bottom: 20px; 
+                            text-align: center; 
+                            background-color: #fff; 
+                            } 
+                            #t_d{ 
+                            color: #982585; 
+                            font-size: 18px; 
+                            } 
+                            #t_h{ 
+                            color: #8f79c1; 
+                            font-size: 18px; 
+                            } 
+                            #t_m{ 
+                            color: #65b4b5; 
+                            font-size: 18px; 
+                            } 
+                            #t_s{ 
+                            color: #83caa3; 
+                            font-size: 18px; 
+                            } 
+                            </style> 
+                            <div class="gn_box"> 
+                    <h1>
+                    <font color=#8C0073>十</font>
+                    <font color=#75008A>周</font> 
+                    <font color=#5E00A1>年</font>
+                    <font color=#3000CF>倒</font>
+                    <font color=#1900E6>计</font>
+                    <font color=#0200FD>时</font>
+                    </h1><center>
+                             <div id="CountMsg" class="HotDate">
+                               <span id="t_d"> 天</span>
+                               <span id="t_h"> 时</span><span id="t_m"> 分</span>
+                               <span id="t_s"> 秒</span>
+                               <div class="cn" title="">相约2023！</div>
+                             </div>
+                            </center> 
+                        <script type="text/javascript">
+                           function getRTime() {
+                           var EndTime = new Date('2023/10/1 00:00:00');       
+                           var NowTime = new Date();       
+                           var t = EndTime.getTime() - NowTime.getTime();              
+                           var d = Math.floor(t / 1000 / 60 / 60 / 24);              
+                           var h = Math.floor(t / 1000 / 60 / 60 % 24);              
+                           var m = Math.floor(t / 1000 / 60 % 60);              
+                           var s = Math.floor(t / 1000 % 60);      
+                           var day = document.getElementById("t_d");     
+                           if (day != null) {         
+                                day.innerHTML = d + " 天";        
+                           }     
+                               var hour = document.getElementById("t_h");     
+                           if (hour != null) {         
+                               hour.innerHTML = h + " 时";       
+                           }     
+                               var min = document.getElementById("t_m");     
+                           if (min != null) {         
+                              min.innerHTML = m + " 分";        
+                           }     
+                               var sec = document.getElementById("t_s");     
+                           if (sec != null) {         
+                               sec.innerHTML = s + " 秒";     
+                           } 
+                           }      
+                           setInterval(getRTime, 1000);      
+                        </script> 
+                </div>
+
+                            
+                     </form>
+
+                 </header>
+
+                 <footer>
+                     <ul class="icons">
+                 <li><a href="https://v.huangbin.net/" title="">加入我们</a></li>
+                         <li><a href="https://v.huangbin.net/" title="">联系方式</a></li>
+                         <li><a href="https://v.huangbin.net/" title="">官网</a></li>
+                     </ul>
+                 </footer>
+             </section>
+         </div>
+         <script>
+             if ('addEventListener' in window) {
+                 window.addEventListener('load', function() {
+                     document.body.className = document.body.className.replace(/\bis-loading\b/, '');
+                 });
+                 document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+             }
+         </script>
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=471761611&auto=1&height=66"></iframe>	
+         <p style="text-align: center;">&copy;<a href="https://www.bingdou.net/">冰豆网</a></p>
+
+     </body>
+     </html>
+ </doctype>
